@@ -7,6 +7,7 @@ import HookuseCallback from './AllHooks/useCallbackHook';
 import HookuseRef from './AllHooks/useRefHook';
 import HookuseContext from './AllHooks/useContextHook';
 import HookuseReducer from './AllHooks/useReducerHook';
+import HookuseImperativeHandle from './AllHooks/useImperativeHandle';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           {/* <HookuseCallback/> */}
           {/* <HookuseRef/> */}
           {/* <HookuseContext/> */}
-          <HookuseReducer/>
+          {/* <HookuseReducer/> */}
+          <HookuseImperativeHandle/>
         </div>
  
     );
