@@ -8,6 +8,7 @@ import HookuseRef from './AllHooks/useRefHook';
 import HookuseContext from './AllHooks/useContextHook';
 import HookuseReducer from './AllHooks/useReducerHook';
 import HookuseImperativeHandle from './AllHooks/useImperativeHandle';
+import HookuseFetchAPICustomHook from './AllHooks/useFetchAPICustomHook';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           {/* <HookuseRef/> */}
           {/* <HookuseContext/> */}
           {/* <HookuseReducer/> */}
-          <HookuseImperativeHandle/>
+          {/* <HookuseImperativeHandle/> */}
+          <HookuseFetchAPICustomHook/>
         </div>
  
     );
